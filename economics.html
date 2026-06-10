@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Economics</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+🎓 EduConnect
+</div>
+
+<button class="menu-btn"
+onclick="toggleMenu()">
+☰
+</button>
+
+<ul class="nav-links" id="navMenu">
+
+<li><a href="index.html">Home</a></li>
+<li><a href="subjects.html">Subjects</a></li>
+<li><a href="tools.html">Study Tools</a></li>
+<li><a href="community.html">Community</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="login.html">Login</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<div class="container">
+
+<h1>Economics</h1>
+
+<div class="card">
+
+<h2>Demand and Supply</h2>
+
+<p>
+Demand refers to the quantity consumers are willing to buy while supply refers to the quantity producers are willing to sell.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Inflation</h2>
+
+<p>
+Inflation is a general increase in prices over time.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Economics Quiz</h2>
+
+<p>
+What happens when demand increases?
+</p>
+
+<button onclick="ecoAnswer()">
+Prices may rise
+</button>
+
+<button>
+Prices always fall
+</button>
+
+<p id="ecoResult"></p>
+
+</div>
+
+</div>
+
+<script>
+function ecoAnswer(){
+document.getElementById("ecoResult").innerHTML="Correct!";
+}
+</script>
+
+</body>
+</html>

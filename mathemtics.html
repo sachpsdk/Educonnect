@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mathematics</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
+</head>
+<body>
+
+<nav class="navbar">
+<div class="logo">🎓 EduConnect</div>
+
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="subjects.html">Subjects</a></li>
+<li><a href="tools.html">Study Tools</a></li>
+<li><a href="community.html">Community</a></li>
+<li><a href="about.html">About</a></li>
+</ul>
+</nav>
+
+<section class="page-header">
+<h1>Mathematics</h1>
+<p>Learn Algebra, Geometry and Statistics</p>
+</section>
+
+<div class="container">
+
+<div class="card">
+<h2>Algebra Notes</h2>
+
+<p>
+Algebra uses letters and symbols to represent unknown values.
+</p>
+
+<ul>
+<li>Simplify expressions</li>
+<li>Expand brackets</li>
+<li>Factorise expressions</li>
+<li>Solve equations</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Geometry Notes</h2>
+
+<ul>
+<li>Angles in a triangle = 180°</li>
+<li>Angles on a straight line = 180°</li>
+<li>Angles around a point = 360°</li>
+<li>Pythagoras Theorem</li>
+</ul>
+</div>
+
+<div class="card">
+
+<h2>Statistics Notes</h2>
+
+<ul>
+<li>Mean = Sum ÷ Number</li>
+<li>Median = Middle Value</li>
+<li>Mode = Most Frequent Value</li>
+<li>Range = Highest - Lowest</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Mathematics Quiz</h2>
+
+<form id="mathQuiz">
+
+<p>1. What is 5 × 8 ?</p>
+<input type="radio" name="q1" value="40">40<br>
+<input type="radio" name="q1" value="35">35<br>
+
+<p>2. Solve: x + 5 = 10</p>
+<input type="radio" name="q2" value="5">5<br>
+<input type="radio" name="q2" value="10">10<br>
+
+<p>3. Mean of 2,4,6?</p>
+<input type="radio" name="q3" value="4">4<br>
+<input type="radio" name="q3" value="6">6<br>
+
+<button type="button"
+onclick="checkMathQuiz()"
+class="btn">
+Submit Quiz
+</button>
+
+</form>
+
+<p id="mathResult"></p>
+
+</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>History</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+🎓 EduConnect
+</div>
+
+<button class="menu-btn"
+onclick="toggleMenu()">
+☰
+</button>
+
+<ul class="nav-links" id="navMenu">
+
+<li><a href="index.html">Home</a></li>
+<li><a href="subjects.html">Subjects</a></li>
+<li><a href="tools.html">Study Tools</a></li>
+<li><a href="community.html">Community</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="login.html">Login</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<button class="menu-btn"
+onclick="toggleMenu()">
+☰
+</button>
+
+<ul class="nav-links" id="navMenu">
+
+<li><a href="index.html">Home</a></li>
+<li><a href="subjects.html">Subjects</a></li>
+<li><a href="tools.html">Study Tools</a></li>
+<li><a href="community.html">Community</a></li>
+<li><a href="about.html">About</a></li>
+
+
+</ul>
+
+</nav>
+
+</header>
+
+<div class="container">
+
+<h1>History</h1>
+
+<div class="card">
+<h2>What is History?</h2>
+<p>
+History is the study of past events and how they shape our world today.
+</p>
+</div>
+
+<div class="card">
+<h2>Important Historical Periods</h2>
+<ul>
+<li>Ancient Civilizations</li>
+<li>Middle Ages</li>
+<li>Industrial Revolution</li>
+<li>Modern Era</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>History Quiz</h2>
+
+<p>Who discovered Fiji for Europeans?</p>
+
+<input type="radio" name="h1">Captain Cook<br>
+<input type="radio" name="h1" id="correctH">Abel Tasman<br>
+
+<button onclick="historyQuiz()">Submit</button>
+
+<p id="historyResult"></p>
+
+</div>
+
+</div>
+
+<script>
+function historyQuiz(){
+if(document.getElementById("correctH").checked){
+document.getElementById("historyResult").innerHTML="Correct!";
+}
+else{
+document.getElementById("historyResult").innerHTML="Try Again!";
+}
+}
+</script>
+
+</body>
+</html>

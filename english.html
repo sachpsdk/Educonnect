@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>English</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+🎓 EduConnect
+</div>
+
+<button class="menu-btn"
+onclick="toggleMenu()">
+☰
+</button>
+
+<ul class="nav-links" id="navMenu">
+
+<li><a href="index.html">Home</a></li>
+<li><a href="subjects.html">Subjects</a></li>
+<li><a href="tools.html">Study Tools</a></li>
+<li><a href="community.html">Community</a></li>
+<li><a href="about.html">About</a></li>
+
+
+</ul>
+
+</nav>
+
+</header>
+
+<div class="container">
+
+<h1>English Language</h1>
+
+<div class="card">
+
+<h2>Grammar Notes</h2>
+
+<ul>
+<li>Noun – Naming word</li>
+<li>Verb – Action word</li>
+<li>Adjective – Describing word</li>
+<li>Adverb – Describes a verb</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Essay Writing Tips</h2>
+
+<ul>
+<li>Introduction</li>
+<li>Body Paragraphs</li>
+<li>Conclusion</li>
+<li>Proofread Work</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>English Quiz</h2>
+
+<p>
+Which word is a noun?
+</p>
+
+<button onclick="englishAnswer()">
+School
+</button>
+
+<button>
+Run
+</button>
+
+<p id="engResult"></p>
+
+</div>
+
+</div>
+
+<script>
+
+function englishAnswer(){
+document.getElementById("engResult")
+.innerHTML="Correct!";
+}
+
+</script>
+
+</body>
+</html>

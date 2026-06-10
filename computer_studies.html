@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Computer Studies</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+🎓 EduConnect
+</div>
+
+<button class="menu-btn"
+onclick="toggleMenu()">
+☰
+</button>
+
+<ul class="nav-links" id="navMenu">
+
+<li><a href="index.html">Home</a></li>
+<li><a href="subjects.html">Subjects</a></li>
+<li><a href="tools.html">Study Tools</a></li>
+<li><a href="community.html">Community</a></li>
+<li><a href="about.html">About</a></li>
+
+
+</ul>
+
+</nav>
+
+</header>
+
+<div class="container">
+
+<h1>Computer Studies</h1>
+
+<div class="card">
+
+<h2>Computer Hardware</h2>
+
+<ul>
+<li>Keyboard</li>
+<li>Mouse</li>
+<li>Monitor</li>
+<li>Printer</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Software</h2>
+
+<ul>
+<li>System Software</li>
+<li>Application Software</li>
+<li>Utility Software</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Programming</h2>
+
+<p>
+Programming is the process of writing instructions
+for a computer.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Computer Studies Quiz</h2>
+
+<p>
+Which device is used for input?
+</p>
+
+<button onclick="csAnswer()">
+Keyboard
+</button>
+
+<button>
+Monitor
+</button>
+
+<p id="csResult"></p>
+
+</div>
+
+</div>
+
+<script>
+
+function csAnswer(){
+
+document.getElementById("csResult")
+.innerHTML="Correct Answer";
+
+}
+
+</script>
+
+</body>
+</html>
